@@ -1,4 +1,4 @@
- Project
+# LNA Project
 
 This project focuses on the design and implementation of a Low-Noise Amplifier (LNA) using the UMC 180nm process.
 
@@ -10,20 +10,31 @@ The LNA is designed to operate in the frequency range of 2.38 - 2.42 GHz with a 
 
 The simulation results for the LNA design are presented below:
 
-- Gain:
-- Return Loss:
+- Gain
+![LNA Gain](./plots/s21.png)
+- Return Loss
+![Return Loss](./plots/s11.png)
 - O1dB:
 - OIP3:
-- Noise Figure:
+- Noise Figure
+![Noise Figure](./plots/nf.png)
 - Power Consumption:
 
-![Simulation Results](simulation_results.png)
 
 ## Schematic
 
 The schematic for the LNA design is displayed below:
 
-![LNA Schematic](schematic.png)
+![LNA Schematic](./plots/schematic.png)
+![LNA Testbench](./plots/tb.png)
+
+These are the values of the variables on the schematic:
+
+- Cin: 10pF
+- LG: 9.14nH
+- LS: 201pH
+- Ltank: 14.57nH
+- w: 240um
 
 ## Future Layout
 
